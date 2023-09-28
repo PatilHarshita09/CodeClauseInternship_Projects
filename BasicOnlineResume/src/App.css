@@ -1,0 +1,129 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+  flex: 1;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact, .education, .expertise, .languages {
+  margin-bottom: 20px;
+}
+
+.contact h2, .education h2, .expertise h2, .languages h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact hr, .education hr, .expertise hr, .languages hr {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.contact p, .education p, .expertise ul, .languages ul {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.expertise ul, .languages ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.expertise ul li, .languages ul li {
+  margin: 5px 0;
+}
+
+.right-section {
+  flex: 2;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.right-section h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.right-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.right-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.experience h2 {
+  color: #333;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.experience ul {
+  padding-left: 0;
+}
+
+.experience ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.personal-interest h2 {
+  color: #333;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.personal-interest ul {
+  padding-left: 0;
+}
+
+.personal-interest ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+
+ 

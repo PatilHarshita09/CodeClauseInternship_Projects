@@ -1,0 +1,95 @@
+.right-section {
+    flex: 2; /* Adjust the flex value to control the width */
+    background-color: #d1efe269;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease; /* Add transition for color change */
+  }
+  
+  .right-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    
+ 
+  text-shadow:
+    1px 1px 0 #888, /* Shadow 1: Dark gray shadow */
+    2px 2px 0 #777, /* Shadow 2: Slightly lighter gray shadow */
+    3px 3px 0 #666; /* Shadow 3: Even lighter gray shadow */
+    
+    color: #f17523;
+    
+  }
+  
+  .right-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #053346;
+  }
+  
+  .right-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .experience h2 {
+    color:#053346;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .experience ul {
+    padding-left: 0;
+  }
+  
+  .experience ul li {
+    list-style-type: none;
+    margin: 10px 0;
+  }
+  
+  .personal-interest h2 {
+    color: #053346;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .personal-interest ul {
+    padding-left: 0;
+  }
+  
+  .personal-interest ul li {
+    list-style-type: none;
+    margin: 10px 0;
+  }
+
+.skills {
+    margin-top: 20px;
+    font-size:20px
+  }
+  
+  .skill {
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .skill-level {
+    height: 100%;
+    border-radius: 5px;
+    background-color:#6dbebf; 
+  } 
+
+  /* Adjust the color, height, and other properties to match your design */
+  
